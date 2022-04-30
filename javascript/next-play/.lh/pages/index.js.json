@@ -1,0 +1,78 @@
+{
+    "sourceFile": "pages/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1651336126452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1651336131681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        \n+        <Image src={}\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n \n"
+                },
+                {
+                    "date": 1651336144823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <Image src={}\n+        <Image src=\"/vercel.svg\" alt=\"Vercel Logo\" width={72} height={16}\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n \n"
+                },
+                {
+                    "date": 1651336153173,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <Image src=\"/vercel.svg\" alt=\"Vercel Logo\" width={72} height={16}\n+        <Image src=\"/car.svg\" alt=\"Vercel Logo\" width={72} height={16}\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n \n"
+                },
+                {
+                    "date": 1651336158702,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <Image src=\"/car.svg\" alt=\"Vercel Logo\" width={72} height={16}\n+        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" width={72} height={16}\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n \n"
+                },
+                {
+                    "date": 1651336167837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" width={72} height={16}\n+        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\"  height={16}\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n \n"
+                },
+                {
+                    "date": 1651336184798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\"  height={16}\n+        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" la height={16}\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n \n"
+                },
+                {
+                    "date": 1651336190545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" la height={16}\n+        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\" height={16}\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n \n"
+                },
+                {
+                    "date": 1651336196888,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\" height={16}\n+        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\"  height={16}\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n \n"
+                },
+                {
+                    "date": 1651336204833,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\"  height={16}\n+        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\"  objectFit=\"\"\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n \n"
+                },
+                {
+                    "date": 1651336213275,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,10 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\"  objectFit=\"\"\n+        <div\n+        <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\"  objectFit=\"cover\"/>\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n \n"
+                },
+                {
+                    "date": 1651336225263,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <div\n+        <div style={{positi}}\n         <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\"  objectFit=\"cover\"/>\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n"
+                },
+                {
+                    "date": 1651336231257,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <div style={{positi}}\n+        <div style={{position:'relative'}}\n         <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\"  objectFit=\"cover\"/>\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n"
+                },
+                {
+                    "date": 1651336236787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <div style={{position:'relative'}}\n+        <div style={{position:'relative',width\"}}\n         <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\"  objectFit=\"cover\"/>\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n"
+                },
+                {
+                    "date": 1651336243727,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <div style={{position:'relative',width:'30px', }}\n+        <div style={{position:'relative',width:'30px', he}}\n         <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\"  objectFit=\"cover\"/>\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n"
+                },
+                {
+                    "date": 1651336250712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n         <link rel=\"icon\" href=\"/favicon.ico\" />\n       </Head>\n \n       <main className={styles.main}>\n-        <div style={{position:'relative',width:'100', }}\n+        <div style={{position:'relative',width:'100%', }}\n         <Image src=\"/car-img.avif\" alt=\"Vercel Logo\" layout=\"fill\"  objectFit=\"cover\"/>\n         <h1 className={styles.title}>\n           Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n         </h1>\n"
+                }
+            ],
+            "date": 1651336126452,
+            "name": "Commit-0",
+            "content": "import Head from 'next/head'\nimport Image from 'next/image'\nimport styles from '../styles/Home.module.css'\n\nexport default function Home() {\n  return (\n    <div className={styles.container}>\n      <Head>\n        <title>Create Next App</title>\n        <meta name=\"description\" content=\"Generated by create next app\" />\n        <link rel=\"icon\" href=\"/favicon.ico\" />\n      </Head>\n\n      <main className={styles.main}>\n        \n        <h1 className={styles.title}>\n          Welcome to <a href=\"https://nextjs.org\">Next.js!</a>\n        </h1>\n\n        <p className={styles.description}>\n          Get started by editing{' '}\n          <code className={styles.code}>pages/index.js</code>\n        </p>\n\n        <div className={styles.grid}>\n          <a href=\"https://nextjs.org/docs\" className={styles.card}>\n            <h2>Documentation &rarr;</h2>\n            <p>Find in-depth information about Next.js features and API.</p>\n          </a>\n\n          <a href=\"https://nextjs.org/learn\" className={styles.card}>\n            <h2>Learn &rarr;</h2>\n            <p>Learn about Next.js in an interactive course with quizzes!</p>\n          </a>\n\n          <a\n            href=\"https://github.com/vercel/next.js/tree/canary/examples\"\n            className={styles.card}\n          >\n            <h2>Examples &rarr;</h2>\n            <p>Discover and deploy boilerplate example Next.js projects.</p>\n          </a>\n\n          <a\n            href=\"https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n            className={styles.card}\n          >\n            <h2>Deploy &rarr;</h2>\n            <p>\n              Instantly deploy your Next.js site to a public URL with Vercel.\n            </p>\n          </a>\n        </div>\n      </main>\n\n      <footer className={styles.footer}>\n        <a\n          href=\"https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Powered by{' '}\n          <span className={styles.logo}>\n            <Image src=\"/vercel.svg\" alt=\"Vercel Logo\" width={72} height={16} />\n          </span>\n        </a>\n      </footer>\n    </div>\n  )\n}\n"
+        }
+    ]
+}
